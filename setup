@@ -1,0 +1,24 @@
+Vite setup with React and deploy in github
+
+
+https://www.freecodecamp.org/news/how-to-install-tailwindcss-in-react/
+
+1. npm create vite@latest your-project-name -- --template react
+2. cd food-app
+3. npm install -D tailwindcss postcss autoprefixer
+4. npx tailwindcss init -p
+5. Open tailwind.config.cjs
+6. "./index.html", "./src/**/*.{js,ts,jsx,tsx}",
+7. open index.css
+8. @tailwind base;
+   @tailwind components;
+   @tailwind utilities;
+7. npm run dev
+8. Open App.jsx
+9. To verify tailwind is working add <h1 className="text-3xl font-bold underline text-center">Hello world!</h1>
+
+Once you done with react project in local next we need to export our code from local to github, these are the steps to follow
+
+1. Go to the local project main.
+2. Open git bash comment ---> git -init
+
